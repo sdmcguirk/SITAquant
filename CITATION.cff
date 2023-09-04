@@ -2,10 +2,10 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: SITAquant
-message: >-
-  A simplified resource for stable isotope tracer analysis
+title: SITAquant: A simplified resource for stable isotope tracer analysis
   from mass spectrometry data
+message: >-
+  
 type: software
 authors:
   - given-names: Shawn
