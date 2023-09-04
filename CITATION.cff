@@ -1,0 +1,60 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: SITAquant
+message: >-
+  A simplified resource for stable isotope tracer analysis
+  from mass spectrometry data
+type: software
+authors:
+  - given-names: Shawn
+    family-names: McGuirk
+    email: shawn.mcguirk@mail.mcgill.ca
+    orcid: 'https://orcid.org/0000-0002-7183-7962'
+  - given-names: Bentley
+    name-particle: J
+    family-names: Oakes
+    email: bentley.oakes@polymtl.ca
+    orcid: 'https://orcid.org/0000-0001-7558-1434'
+  - given-names: Simon-Pierre
+    family-names: Gravel
+    orcid: 'https://orcid.org/0000-0001-8411-8054'
+    email: sp.gravel@umontreal.ca
+  - given-names: Clark
+    family-names: Verbrugge
+    email: clump@cs.mcgill.ca
+  - given-names: Julie
+    family-names: St-Pierre
+    orcid: 'https://orcid.org/0000-0002-2815-7099'
+    email: julie.st-pierre@uottawa.ca
+repository-code: 'https://github.com/sdmcguirk/SITAquant/'
+abstract: >-
+  Quantifying metabolic flux using labeled substrates such
+  as 13C-Glucose or 15N-Glutamine in GC/MS or LC/MS is a
+  complex process, which can be facilitated by flux modeling
+  software. Given the increased accessibility of
+  metabolomics workflows and of short-term labeling
+  experiments in model organisms, however, a more rapid and
+  straightforward single-metabolite analysis is often
+  sufficient to infer the metabolic fates of stable isotope
+  tracers. To provide a simplified workflow for stable
+  isotope tracer analysis, we developed an open-source
+  program bearing a simple user interface that can be used
+  to determine the fractional abundance of labeling as well
+  as the relative or absolute amount of labeling of any
+  known metabolite or metabolite fragment, through
+  correction of mass spectrometry data for natural isotopic
+  abundances and through consideration of experimental
+  parameters such as sample size and internal controls. This
+  multi-tiered Java program is easily accessible online and
+  across platforms, permitting users with little programming
+  or modeling background to perform simple labeling
+  experiments. 
+keywords:
+  - stable isotope tracer analysis
+  - metabolomics
+license: CC-BY-NC-SA-4.0
+commit: SITAquant2023
+version: '3.0'
+date-released: '2023-09-01'
